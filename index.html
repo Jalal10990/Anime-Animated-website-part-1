@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Universe | Explore Your Favorite Shows</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="anime-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logos/anime-logo.png" alt="Anime Universe">
+                <span class="logo-text">ANIME UNIVERSE</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">Shows</a></li>
+                <li><a href="#" class="nav-link">Characters</a></li>
+                <li><a href="#" class="nav-link">News</a></li>
+                <li><a href="#" class="nav-link">Forum</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" placeholder="Search anime...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="anime-hero">
+        <div class="hero-content">
+            <h1 class="hero-title">EXPLORE THE <span>ANIME</span> UNIVERSE</h1>
+            <p class="hero-subtitle">Discover your next favorite show among thousands of titles</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Browse Now</button>
+                <button class="btn btn-secondary">Popular Shows</button>
+            </div>
+        </div>
+        <div class="hero-character">
+            <img src="images/characters/main-character.png" alt="Anime Character" class="character-img floating">
+        </div>
+    </section>
+
+    <!-- Featured Shows Section -->
+    <section class="featured-shows">
+        <h2 class="section-title">FEATURED <span>SHOWS</span></h2>
+        <div class="show-carousel">
+            <!-- Items will be added dynamically with JavaScript -->
+        </div>
+    </section>
+
+    <!-- Character Spotlight -->
+    <section class="character-spotlight">
+        <div class="spotlight-bg"></div>
+        <div class="spotlight-content">
+            <h2>CHARACTER <span>SPOTLIGHT</span></h2>
+            <div class="character-card">
+                <div class="character-info">
+                    <h3>Naruto Uzumaki</h3>
+                    <p>From: Naruto Shippuden</p>
+                    <p class="character-desc">Believing in himself and never giving up, Naruto strives to become Hokage.</p>
+                    <button class="btn btn-outline">View Profile</button>
+                </div>
+                <div class="character-image">
+                    <img src="images/characters/naruto.png" alt="Naruto" class="character-float">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="anime-footer">
+        <!-- Footer content -->
+    </footer>
+
+    <!-- Anime.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <!-- Particles.js CDN -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Main JS -->
+    <script src="script.js"></script>
+</body>
+</html>
